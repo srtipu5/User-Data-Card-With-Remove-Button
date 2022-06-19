@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.users{
+    width: 100%;
+    padding: 20px 0 10px 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+
+}
+
+.user{
+    width: 25%;
+    margin: 0.1rem;
+    box-shadow: 0 4px 16px 0 green;
+    padding: 1rem;
+}
+.user:hover{
+    box-shadow: 0 8px 16px 0 green;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    color: red;
+}
+h3{
+    margin: 0; 
+    display: inline;
+}
+
+.userInfo{
+    margin: 0; 
+    display: inline;
+}
+
+button{
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    float: right;  
+  }
